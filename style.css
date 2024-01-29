@@ -9,19 +9,7 @@ body {
     position: relative;
     text-decoration: none;
   }
-  .extra:before {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  height: 6px;
-  width: 0;
-  background: #5C5470;
-  border-radius: 50px;
-  transition: width 0.3s ease;
-  }
-  .extra:hover:before {
-    width: 96px;
-  }
+ 
   h1, h4 {
     text-align: center;
   }
