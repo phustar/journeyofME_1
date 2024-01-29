@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #D8D9DA;
+    font-family: 'Times New Roman', Times, serif
+  }
+  .extra {
+    position: relative;
+    text-decoration: none;
+  }
+  .extra:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 6px;
+  width: 0;
+  background: #5C5470;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+  }
+  .extra:hover:before {
+    width: 96px;
+  }
+  h1, h4 {
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .established {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+  }
+  .top {
+   display: flex;
+   margin-top: 100px;
+  }
+  .bottom {
+    display: flex;
+    margin-top: 100px;
+  }
+  .past {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    overflow: hidden;
+  }
+  .past img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .past img:hover {
+    transform: scale(1.3);
+    filter: grayscale(0%);
+  }
+  .present {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    overflow: hidden;
+  }
+  .present img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .present img:hover {
+    transform: scale(1.3);
+    filter: grayscale(0%);
+  }
+  .future {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    overflow: hidden;
+  }
+  .future img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .future img:hover {
+    transform: scale(1.3);
+    filter: grayscale(0%);
+  }
+  .death {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    overflow: hidden;
+  }
+  .death img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .death img:hover {
+    transform: scale(1.3);
+    filter: grayscale(0%);
+  }
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .greeting {
+    font-size: 20px;
+  }  
+  .copyright {
+    text-align: center;
+  }
