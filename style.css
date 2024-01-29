@@ -24,14 +24,19 @@ body {
     text-align: center;
     font-size: 20px;
   }
-  .top {
-   display: flex;
-   margin-top: 100px;
+  
+  .top img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  .bottom {
-    display: flex;
-    margin-top: 100px;
+
+  .bottom img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
   .past {
     width: 250px;
     height: 250px;
